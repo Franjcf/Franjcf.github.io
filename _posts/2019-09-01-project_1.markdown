@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2019-09-01
-img: viscousFingering.png
+img: HPIF/viscousFingering.png
 alt: image-alt
 project-date: September 2019
 client: Start Bootstrap
