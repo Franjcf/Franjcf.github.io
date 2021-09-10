@@ -1,43 +1,65 @@
-# site settings
-title: Francisco J Carrillo
-subtitle: by HTML5 UP
-email: franjcf@outlook.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-#baseurl: /Franjcf.github.io # the subpath of your site, e.g. /blog
-url: https://franjcf.github.io/
-author:
-street_address: 6805 Smokey Hill Rd
-city: Austin
-state: TX
-zip_code: 78736 
-country: United States of America
-phone: (512) 574-5060
+# Site settings
+title: Francisco J. Carrillo
+email: Franjcf@outlook.com
+url: https://franjcf.github.io
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+keywords: "your keywords, separated by commas"
+skills: "Engineer - Data Analyist - Programmer"
+meta_author: Carrillo Francisco 
 
-# homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+# Google webmaster tools
+google_verify:
 
-# social settings (key must match name of font awesome icon)
-# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
-# Icons are not shown if value is empty
-# You need to restart jekyll for changes to have an effect
-socials:
-  GitHub: https://github.com/Franjcf
-  Google-Plus:
-  Instagram:
-  LinkedIn: https://www.linkedin.com/in/francisco-jose-carrillo
-  Twitter: 
-  Facebook:
-  Slack:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
 
-# build settings
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Dr. Henry Jekyll
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/francisco-jose-carrillo
+  - title: github
+    url: https://github.com/Franjcf
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 6805 Smokey Hill Rd
+  - line: Austin, TX, 78736
+
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
 markdown: kramdown
+permalink: pretty
 
-sass:
-  style: compressed
-
-exclude:
-- "*.gemspec"
-- LICENSE.md
-- CONTRIBUTING.md
-- README.md 
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
