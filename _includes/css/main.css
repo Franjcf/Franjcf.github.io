@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #ccc;/*#{{ site.color.primary }};*/
+    color: #{{ site.color.primary }};
 }
 
 h1,
@@ -83,7 +83,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #ccc;/*#{{ site.color.primary }};*/
+    background: #{{ site.color.primary }};
 }
 
 header .container {
@@ -182,7 +182,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #ccc;/*#{{ site.color.primary }};*/
+    background: #{{ site.color.primary }};
 }
 
 @media(max-width:767px) {
@@ -293,7 +293,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #ccc; /*#{{ site.color.primary }};  */
+    color: #{{ site.color.primary }};  
     background: #fff;
 }
 
@@ -346,7 +346,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #ccc;/*#{{ site.color.primary }};*/
+    color: #{{ site.color.primary }};
 }
 
 form .row:first-child .floating-label-form-group {
@@ -473,7 +473,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #ccc /*#{{ site.color.secondary-dark }}*/ !important;
+    background-color: #{{ site.color.secondary-dark }} !important;
 }
 
 /* Fix modal mouse wheel issues */
