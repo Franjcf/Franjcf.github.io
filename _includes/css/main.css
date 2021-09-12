@@ -285,7 +285,7 @@ section.success {
     font-size: 20px;
     color: #fff;
     background: 0 0;
-    transition: all .3s ease-in-out;
+    transition: all 3.3s ease-in-out;
 }
 
 .btn-outline:hover,
@@ -293,7 +293,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }};  
+    color: #fff;/*#{{ site.color.primary }};*/  
     background: #fff;
 }
 
