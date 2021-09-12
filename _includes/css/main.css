@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #808080;/*#{{ site.color.primary }};*/
+    color: #ccc;/*#{{ site.color.primary }};*/
 }
 
 h1,
@@ -293,7 +293,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #808080; /*#{{ site.color.primary }};  */
+    color: #ccc; /*#{{ site.color.primary }};  */
     background: #fff;
 }
 
@@ -473,7 +473,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: #ccc /*#{{ site.color.secondary-dark }}*/ !important;
 }
 
 /* Fix modal mouse wheel issues */
