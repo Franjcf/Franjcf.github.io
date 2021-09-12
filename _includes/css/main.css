@@ -83,7 +83,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #ccc;/*#{{ site.color.primary }};*/
 }
 
 header .container {
@@ -182,7 +182,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #ccc;/*#{{ site.color.primary }};*/
 }
 
 @media(max-width:767px) {
@@ -346,7 +346,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    color: #ccc;/*#{{ site.color.primary }};*/
 }
 
 form .row:first-child .floating-label-form-group {
