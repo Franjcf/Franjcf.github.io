@@ -164,8 +164,18 @@ header .intro-text .skills {
     color: #ccc; /**/
 }
 
+.navbar a:hover { /**/
+    outline: 0;
+    color: #ccc; /**/
+}
+
 .navbar .navbar-nav {
     letter-spacing: 1px;
+    color: #ccc; /**/
+}
+
+.navbar-nav a:hover { /**/
+    outline: 0;
     color: #ccc; /**/
 }
 
@@ -486,7 +496,7 @@ footer .footer-below {
     background-color: #{{ site.color.secondary-dark }} !important;
 }
 
-.navbar-nav>.hover>a {
+.navbar-nav>.hover>a { /**/
     color: #ccc; /**/
     background-color: #{{ site.color.secondary-dark }} !important;
 }
