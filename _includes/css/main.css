@@ -22,7 +22,7 @@ a,
 	a:active,
 	a.active {
 outline: 0;
-color: #4F4F4F; /*#{{ site.color.primary }};*/
+color: #AAAAAA; /*#{{ site.color.primary }};*/
 	}
 
 h1,
@@ -126,7 +126,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
 	.navbar-fixed-top {
-	color: #ccc; /**/
+	color: #fff; /**/
         padding: 25px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
@@ -135,7 +135,7 @@ header .intro-text .skills {
 
     .navbar-fixed-top .navbar-brand {
         font-size: 2em;
-	color: #ccc; /**/
+	color: #fff; /**/
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -143,12 +143,12 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
-        /*color: #ccc; /**/
+        color: #fff; /**/
 	}
 
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
+    .navbar-fixed-top.navbar-shrink .navbar-brand .navbar-right {
         font-size: 1.5em;
-        color: #ccc; /**/
+        color: #fff; /**/
 	}
 }
 
@@ -156,37 +156,37 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: #ccc; /**/
+    color: #fff; /**/
 }
 
 .navbar a:focus {
     outline: 0;
-    color: #ccc; /**/
+    color: #fff; /**/
 }
 
 .navbar a:hover { /**/
     outline: 0;
-    color: #ccc; /**/
+    color: #fff; /**/
 }
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
-    color: #ccc; /**/
+    color: #fff; /**/
 }
 
 .navbar-nav a:hover { /**/
     outline: 0;
-    color: #ccc; /**/
+    color: #fff; /**/
 }
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
-    color: #ccc; /**/
+    color: #fff; /**/
 }
 
 .navbar-default,
 .navbar-inverse {
-    color: #ccc; /**/
+    color: #fff; /**/
     border: 0;
 }
 
@@ -492,12 +492,12 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    color: #ccc; /**/
+    color: #fff; /**/
     background-color: #{{ site.color.secondary-dark }} !important;
 }
 
 .navbar-nav>.hover>a { /**/
-    color: #ccc; /**/
+    color: #fff; /**/
     background-color: #{{ site.color.secondary-dark }} !important;
 }
 
