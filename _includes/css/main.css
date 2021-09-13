@@ -17,13 +17,14 @@ p.small {
 }
 
 a,
-        a:hover,
+        a:hover {color: red;},
 	a:focus,
 	a:active,
 	a.active {
 outline: 0;
 color: #AAAAAA; /*#{{ site.color.primary }};*/
 	}
+	
 
 h1,
 	h2,
@@ -504,36 +505,6 @@ footer .footer-below {
 .navbar-nav>.active>a {
     color: #fff; /**/
     background-color: #{{ site.color.secondary-dark }} !important;
-}
-
-.navbar-brand>.active>a {
-    color: #fff; /**/
-    background-color: #{{ site.color.secondary-dark }} !important;
-}
-
-.navbar-nav:hover {
-    color: #ccc; /**/
-}
-
-.navbar:hover {
-    color: #ccc; /**/
-}
-
-.navbar-right:hover {
-    color: #ccc; /**/
-}
-
-.navbar-default:hover {
-    color: #ccc; /**/
-}
-
-.navbar-fixed-top:hover {
-    color: #ccc; /**/
-}
-
-
-.navbar-brand:hover {
-    color: #ccc; /**/
 }
 
 
