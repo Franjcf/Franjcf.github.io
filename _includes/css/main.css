@@ -150,6 +150,32 @@ header .intro-text .skills {
         font-size: 1.5em;
         color: #fff; /**/
 	}
+
+    .navbar-fixed-top.navbar-shrink .navbar-brand .navbar-right {
+        font-size: 1.5em;
+        color: #fff; /**/
+        }
+
+    .navbar-brand:hover {
+    	 color: #ccc; /**/
+	}
+
+    .navbar-fixed-top:hover {
+    	color: #ccc; /**/
+	}
+
+    .navbar-shrink:hover {
+        color: #ccc; /**/
+        }
+
+    .navbar-right:hover {
+        color: #ccc; /**/
+        }
+}
+
+
+}
+
 }
 
 .navbar {
@@ -496,6 +522,11 @@ footer .footer-below {
     background-color: #{{ site.color.secondary-dark }} !important;
 }
 
+.navbar-brand>.active>a {
+    color: #fff; /**/
+    background-color: #{{ site.color.secondary-dark }} !important;
+}
+
 .navbar-nav:hover {
     color: #ccc; /**/
 }
@@ -507,6 +538,15 @@ footer .footer-below {
 .navbar-right:hover {
     color: #ccc; /**/
 }
+
+.navbar-default:hover {
+    color: #ccc; /**/
+}
+
+.navbar-fixed-top:hover {
+    color: #ccc; /**/
+}
+
 
 .navbar-brand:hover {
     color: #ccc; /**/
