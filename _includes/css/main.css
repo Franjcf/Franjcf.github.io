@@ -155,22 +155,6 @@ header .intro-text .skills {
         font-size: 1.5em;
         color: #fff; /**/
         }
-
-    .navbar-brand:hover {
-    	 color: #ccc; /**/
-	}
-
-    .navbar-fixed-top:hover {
-    	color: #ccc; /**/
-	}
-
-    .navbar-shrink:hover {
-        color: #ccc; /**/
-        }
-
-    .navbar-right:hover {
-        color: #ccc; /**/
-        }
 }
 
 
