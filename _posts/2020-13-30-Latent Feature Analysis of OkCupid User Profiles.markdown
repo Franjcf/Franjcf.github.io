@@ -13,5 +13,5 @@ stock trading algorithms, population analysis, and the sorting of people into gr
 commercial, dating, and policy purposes). In this project I used One-Hot encoding, natural language processing (Bag of Words), and Latent Dirichlet Allocation to process and analyze the data from 59,946 real OkCupid dating profiles originating from the San Francisco Bay 
 Area. In particular I studied the relationship between the prevalence of Tweeners (users who are sorted into several groups) and the hyper parameter k (total number of groups).
  I concluded that, for this data set, k has an optimal value of 7, which dramatically decreases the number of tweeners while still being an interpretable and manageable number of groups. The resulting analysis sorted users into groups composed of, intellectuals, 
-educated white people, artistic people, active people, hipsters, people who love life, and social people. Furthermore, I identified that tweeners tend to be part of a group which consists of drug-loving atheists'.
+educated white people, artistic people, active people, hipsters, people who love life, and social people. Furthermore, I identified that tweeners tend to be part of a group which consists of drug-loving atheists.'
 ---
