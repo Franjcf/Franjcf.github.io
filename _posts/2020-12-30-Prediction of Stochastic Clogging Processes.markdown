@@ -2,8 +2,7 @@
 layout: default
 modal-id: 3
 date: 2014-07-16
-caption: hello
-img: clogging.png
+img: clogging_2.png
 alt: image-alt
 project-date: April 2014
 link: https://github.com/Franjcf/Data-Science-Projects/blob/main/clogging_prediction_analysis/clogging_analysis.ipynb
