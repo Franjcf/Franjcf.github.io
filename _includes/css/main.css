@@ -17,14 +17,13 @@ p.small {
 }
 
 a,
-        a:hover {color: red;},
 	a:focus,
 	a:active,
 	a.active {
-outline: 0;
-color: #AAAAAA; /*#{{ site.color.primary }};*/
-	}
-	
+		outline: 0;
+		color: #AAAAAA; /*#{{ site.color.primary }};*/
+	},
+	a:hover {color: red;}
 
 h1,
 	h2,
