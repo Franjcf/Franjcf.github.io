@@ -5,7 +5,7 @@ date: 2020-12-30
 img: OkCupid.png
 alt: image-alt
 project-date: December 2020
-link: "https://github.com/Franjcf/Data-Science-Projects/blob/main/OKCupid_LDA_analysis/OKCupid_LDA.ipynb"
+link: https://github.com/Franjcf/Data-Science-Projects/blob/main/OKCupid_LDA_analysis/OKCupid_LDA.ipynb
 category: Web Development
 description: 'The study and identification of the hidden (i.e. latent) features on data 
 sets has far-reaching implications in the fields of data science. Potential applications of latent feature analysis includes the development of search engines, the creation of 
