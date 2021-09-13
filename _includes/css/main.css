@@ -151,6 +151,13 @@ header .intro-text .skills {
         color: #fff; /**/
 	}
 
+    .navbar-fixed-top:hover {
+        color: #fff; 
+        }
+
+    .navbar-brand:hover {
+        color: #fff; 
+        }
 }
 
 .navbar {
