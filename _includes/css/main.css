@@ -26,7 +26,7 @@ a,
 	a:active,
 	a.active {
 		outline: 0;
-		color: #AAAAAA; /*#{{ site.color.primary }};*/
+		color: #004fd1; /*#{{ site.color.primary }};*/
 	}
 
 h1,
