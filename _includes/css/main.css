@@ -150,14 +150,6 @@ header .intro-text .skills {
         font-size: 1.5em;
         color: #fff; /**/
 	}
-
-    .navbar-fixed-top:hover {
-        color: #fff; 
-        }
-
-    .navbar-brand:hover {
-        color: #fff; 
-        }
 }
 
 .navbar {
