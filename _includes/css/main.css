@@ -22,7 +22,7 @@ a,
 	a:active,
 	a.active {
 outline: 0;
-color: #00FF00; /*#{{ site.color.primary }};*/
+color: #4F4F4F; /*#{{ site.color.primary }};*/
 	}
 
 h1,
