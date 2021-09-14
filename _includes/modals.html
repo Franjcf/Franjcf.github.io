@@ -26,15 +26,14 @@
                             {% endif %}
                             <ul class="list-inline item-details">
                                 {% if post.link %}
-                                    <li style="font-size:20px">Link to Project:
-                                        <strong><a href="{{ post.link }}" target="_blank">Github Link</a>
-                                        </strong>
+                                    <li style="font-size:20px">
+					<strong>Link to Project: </strong>
+                                        <a href="{{ post.link }}" target="_blank">Github Link</a>
                                     </li>
                                 {% endif %}
                                 {% if post.project-date %}
-                                    <li style="font-size:20px">Date:
-                                        <strong> {{ post.project-date }}
-                                        </strong>
+                                    <li style="font-size:20px">
+                                        <strong>Date: </strong> {{ post.project-date }}
                                     </li>
                                 {% endif %}
                                 {% if post.category %}
