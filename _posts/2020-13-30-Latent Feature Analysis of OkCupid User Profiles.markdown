@@ -6,6 +6,8 @@ img: OkCupid.png
 alt: image-alt
 project-date: August 2019
 link: https://github.com/Franjcf/Data-Science-Projects/blob/main/OKCupid_LDA_analysis/OKCupid_LDA.ipynb
+TLDR: I used LDA to find the optimal number of interpretable latent categories that can accurately classify 60,000 OkCupid users. I also found that drug-loving-atheists are the least likely type of person to find a suitable match. 
+skills: Latent Dirichlet Allocation, Unsupervised models, NLP, Python, Scikit-learn, Cleaning and Preparation of Data.
 description: 'The study and identification of the hidden (i.e. latent) features on data 
 sets has far-reaching implications in the fields of data science. Potential applications of latent feature analysis includes the development of search engines, the creation of 
 stock trading algorithms, population analysis, and the sorting of people into groups (for 
