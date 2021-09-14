@@ -27,7 +27,7 @@ a,
 
 a:hover {
 	background-color: yellow;
-	}
+	} !important
 
 h1,
 	h2,
