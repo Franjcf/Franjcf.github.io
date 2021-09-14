@@ -17,12 +17,16 @@ p.small {
 }
 
 a,
-	a:hover,
+	/*a:hover,*/
 	a:focus,
 	a:active,
 	a.active {
 		outline: 0;
 		color: #004fd1; /*#{{ site.color.primary }};*/
+	}
+
+a:hover {
+	background-color: yellow;
 	}
 
 h1,
