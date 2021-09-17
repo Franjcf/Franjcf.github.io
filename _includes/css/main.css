@@ -315,6 +315,25 @@ section.success {
     background: #fff;
 }
 
+.btn-outline-dark {
+    margin-top: 15px;
+    border: solid 2px #{{ site.color.secondary }};;
+    font-size: 20px;
+    color:  #{{ site.color.secondary }};;
+    background: 0 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-dark:hover,
+.btn-outline-dark:focus,
+.btn-outline-dark:active,
+.btn-outline-dark.active {
+    border: solid 2px #{{ site.color.secondary }};;
+    color: #fff;
+    background: #{{ site.color.secondary }};;
+}
+
+
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
