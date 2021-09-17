@@ -315,22 +315,22 @@ section.success {
     background: #fff;
 }
 
-.btn-outline-dark {
+.btn-dark {
     margin-top: 15px;
-    border: solid 2px #{{ site.color.secondary }};;
+    border: solid 2px #{{ site.color.secondary }};
     font-size: 20px;
-    color:  #{{ site.color.secondary }};;
+    color:  #{{ site.color.secondary }};
     background: 0 0;
     transition: all 0.3s ease-in-out;
 }
 
-.btn-outline-dark:hover,
-.btn-outline-dark:focus,
-.btn-outline-dark:active,
-.btn-outline-dark.active {
-    border: solid 2px #{{ site.color.secondary }};;
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active,
+.btn-dark.active {
+    border: solid 2px #{{ site.color.secondary }};
     color: #fff;
-    background: #{{ site.color.secondary }};;
+    background: #{{ site.color.secondary }};
 }
 
 
@@ -513,7 +513,6 @@ footer .footer-below {
     color: #fff; /**/
     background-color: #{{ site.color.secondary-dark }} !important;
 }
-
 
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
