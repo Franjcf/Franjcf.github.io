@@ -1,10 +1,10 @@
 ---
 layout: default
-modal-id: 7
+modal-id: 9
 date: 2019-06-29
 img: kernel.png
 alt: image-alt
-project-date: June 2019
+project-date: July 2019
 link: https://github.com/Franjcf/Data-Science-Projects/blob/main/kernel_PCA_SVD_KNN/kernel_PCA_SVD_KNN.ipynb
 TLDR: 4th order inhomogeneous kernels and gaussian RBF kernels can help improve the labelling accuracy of handwritten digits and the detection of human liver disorders.
 skills: Kernels Methods, Image Recognition, Data Analysis, Linear Algebra, Support Vector Machines, Principal Component Analysis, KNN.
